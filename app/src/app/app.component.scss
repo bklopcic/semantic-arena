@@ -1,0 +1,32 @@
+.header {
+    height: 60px;
+    background-color: darkgreen;
+}
+.card-container {
+    width: 60%;
+    margin-left: 20%;
+}
+
+.create-card {
+    background-color: lightgrey;
+    text-align: center;
+    cursor: pointer; 
+    line-height: 4rem;
+}
+
+.menu-container {
+    display: flex;
+    height: 4rem;
+    line-height: 4rem;
+    text-align: center;
+    cursor: pointer;
+
+    :not(:first-child) {
+        border-left: solid .15rem darkorange;
+    }
+}
+
+.menu-item {
+    flex-grow: 1;
+    background-color: orange;
+}

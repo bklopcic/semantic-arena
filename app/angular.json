@@ -25,12 +25,22 @@
             "inlineStyleLanguage": "scss",
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "src/resources"
             ],
             "styles": [
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [],
+            "allowedCommonJsDependencies": [
+              "queue-microtask",
+              "readable-stream",
+              "@babel/runtime/regenerator",
+              "cross-fetch",
+              "@frogcat/ttl2jsonld",
+              "solid-namespace",
+              "@xmldom/xmldom"
+            ]
           },
           "configurations": {
             "production": {

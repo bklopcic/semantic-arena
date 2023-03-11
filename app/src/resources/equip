@@ -1,0 +1,8 @@
+@prefix : <http://benjaminklopcic.com/semantic-demo/equip#> .
+@prefix core: <http://benjaminklopcic.com/semantic-demo/core#> .
+@prefix rdf: <http://www.w3.org/1999/01/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+:shortsword a core:Equipment ;
+            rdfs:label "Shortsword" .

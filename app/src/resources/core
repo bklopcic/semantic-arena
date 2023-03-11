@@ -1,0 +1,24 @@
+@prefix : <http://benjaminklopcic.com/semantic-demo/core#> .
+@prefix rdf: <http://www.w3.org/1999/01/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+:Champion a owl:Class ;
+          rdfs:label "Champion" .
+
+:Race a owl:Class ;
+        rdfs:label "Race" .
+
+:Equipment a owl:Class ;
+           rdfs:label "Equipment" .
+
+:Ability a owl:Class ;
+         rdfs:label "Ability" .
+
+:hasAbility a owl:ObjectProperty ;
+            owl:range :Ability ;
+            rdfs:label "Has Ability" .
+
+:hasEquipment a owl:ObjectProperty ;
+              owl:range :Equipment ;
+              rdfs:label "Has Equipment" .

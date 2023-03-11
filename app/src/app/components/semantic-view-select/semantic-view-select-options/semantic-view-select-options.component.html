@@ -1,0 +1,8 @@
+<div class="opt-container">
+    <div *ngFor="let opt of options" 
+        class="opt-btn" 
+        (click)="onClick(opt)"
+    >
+        {{opt.label}}
+    </div>
+</div>
